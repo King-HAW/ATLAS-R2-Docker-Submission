@@ -45,32 +45,8 @@ Here we provide our 5-fold cross-validation results. The code of calculating som
 
 Please note that our proposed post-processing strategy can improve the `Jaccard Coefficient`, `Lesionwise F1 Score`, `Simple Lesion Count` and `95% Hausdorff Distance` metrics.
 
-<style>
-table th:first-of-type {
-    width: 10%;
-}
-table th:nth-of-type(2) {
-    width: 15%;
-}
-table th:nth-of-type(3) {
-    width: 15%;
-}
-table th:nth-of-type(4) {
-    width: 15%;
-}
-table th:nth-of-type(5) {
-    width: 15%;
-}
-table th:nth-of-type(6) {
-    width: 15%;
-}
-table th:nth-of-type(7) {
-    width: 15%;
-}
-</style>
-
 #### **Dice Coefficient**
-| Dice | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
+| <span style="display:inline-block;width:45px">Dice</span> | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | Fold 0 | 0.6296 (0.2807) | 0.6267 (0.2885) | 0.6306 (0.2699) | 0.6455 (0.2667) | 0.6418 (0.2743) | 0.6431 (0.2731) |
 | Fold 1 | 0.6372 (0.2719) | 0.6341 (0.2725) | 0.6577 (0.2431) | 0.6472 (0.2565) | 0.6542 (0.2579) | 0.6523 (0.2655) |
@@ -80,7 +56,7 @@ table th:nth-of-type(7) {
 | Mean   | 0.6358 (0.2693) | 0.6304 (0.2739) | 0.6388 (0.2645) | 0.6488 (0.2608) | 0.6471 (0.2654) | 0.6465 (0.2700) |
 
 #### **Jaccard Coefficient**
-| JC | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
+| <span style="display:inline-block;width:45px">JC</span> | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | Fold 0 | 0.5118 (0.2616) | 0.5109 (0.2656) | 0.5097 (0.2552) | 0.5248 (0.2510) | 0.5231 (0.2562) | 0.5244 (0.2565) |
 | Fold 1 | 0.5174 (0.2549) | 0.5141 (0.2553) | 0.5319 (0.2365) | 0.5239 (0.2446) | 0.5323 (0.2458) | 0.5324 (0.2504) |
@@ -90,7 +66,7 @@ table th:nth-of-type(7) {
 | Mean   | 0.5157 (0.2553) | 0.5112 (0.2583) | 0.5176 (0.2530) | 0.5274 (0.2488) | 0.5271 (0.2527) | 0.5278 (0.2556) |
 
 #### **Lesionwise F1 Score**
-| L-F1 | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
+| <span style="display:inline-block;width:45px">L-F1</span> | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | Fold 0 | 0.5285 (0.2853) | 0.5242 (0.3028) | 0.5416 (0.2776) | 0.5376 (0.2823) | 0.5463 (0.2916) | 0.5593 (0.2938) |
 | Fold 1 | 0.5583 (0.2814) | 0.5586 (0.2823) | 0.5309 (0.2742) | 0.5569 (0.2716) | 0.5832 (0.2827) | 0.5948 (0.3009) |
@@ -100,7 +76,7 @@ table th:nth-of-type(7) {
 | Mean   | 0.5493 (0.2815) | 0.5469 (0.2914) | 0.5395 (0.2770) | 0.5497 (0.2779) | 0.5685 (0.2845) | 0.5747 (0.2961) |
 
 #### **Simple Lesion Count**
-| SLC | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
+| <span style="display:inline-block;width:45px">SLC</span> | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | Fold 0 | 2.8779 (4.1138) | 3.2748 (4.2968) | 3.0076 (4.1016) | 3.0076 (4.0259) | 3.1298 (4.3099) | 3.0458 (4.1876) |
 | Fold 1 | 3.2290 (5.5741) | 3.1221 (5.6596) | 3.2977 (5.3833) | 3.2214 (5.5474) | 3.0153 (5.6961) | 2.9084 (5.5822) |
@@ -110,7 +86,7 @@ table th:nth-of-type(7) {
 | Mean   | 3.4305 (6.7530) | 3.5008 (6.6851) | 3.5618 (6.6306) | 3.5298 (6.6359) | 3.4412 (6.7976) | 3.3817 (6.7860) |
 
 #### **Volume Difference**
-| VD | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
+| <span style="display:inline-block;width:45px">VD</span> | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | Fold 0 | 5745 (14129) | 5783 (15054) | 6544 (16136) | 5596 (13805) | 5548 (14120) | 5546 (13858) |
 | Fold 1 | 5382 (8580) | 5505 (9477) | 5280 (9147) | 5588 (8957) | 5356 (8983) | 5443 (9282) |
@@ -120,7 +96,7 @@ table th:nth-of-type(7) {
 | Mean   | 5852 (11792) | 6013 (12740) | 5897 (12034) | 5628 (11084) | 5688 (11555) | 5729 (11565) |
 
 #### **95% Hausdorff Distance**
-| 95HD | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
+| <span style="display:inline-block;width:45px">95HD</span> | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | Fold 0 | 21.9424 (26.5471) | 22.9445 (29.4410) | 24.4844 (29.6224) | 23.1442 (28.2716) | 21.9932 (28.0031) | 21.8031 (27.8958) |
 | Fold 1 | 23.3701 (29.4259) | 22.7847 (29.5189) | 22.5037 (26.9299) | 25.9064 (31.4047) | 19.7646 (26.9798) | 18.6559 (25.8924) |
