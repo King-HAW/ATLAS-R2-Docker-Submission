@@ -43,7 +43,7 @@ Here we provide our 5-fold cross-validation results. The code of calculating som
 - `Ensemble`: predictions of four different training settings were ensembled to get the final results.
 - `Ensemble(PP)`: the ensembled results were further handled with our proposed post-processing strategy.
 
-Please note that our proposed post-processing strategy can improve the `Jaccard Coefficient`, `Lesionwise F1 Score`, `Simple Lesion Count` and `95% Hausdorff Distance` metrics.
+Please note that all values are shown as `average (stand deviation)`. Results show our proposed post-processing strategy can improve the `Jaccard Coefficient`, `Lesionwise F1 Score`, `Simple Lesion Count` and `95% Hausdorff Distance` metrics.
 
 #### **Dice Coefficient**
 | <span style="display:inline-block;width:55px">Dice</span> | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
