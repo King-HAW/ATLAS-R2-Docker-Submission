@@ -45,7 +45,7 @@ Here we provide our 5-fold cross-validation results. The code of calculating som
 
 Please note that all values are shown as `average (stand deviation)`. Results show our proposed post-processing strategy can improve the `Jaccard Coefficient`, `Lesionwise F1 Score`, `Simple Lesion Count` and `95% Hausdorff Distance` metrics.
 
-#### **Dice Coefficient**
+#### **Dice Coefficient** $\uparrow$
 | <span style="display:inline-block;width:55px">Dice</span> | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | Fold 0 | 0.6296 (0.2807) | 0.6267 (0.2885) | 0.6306 (0.2699) | 0.6455 (0.2667) | 0.6418 (0.2743) | 0.6431 (0.2731) |
@@ -55,7 +55,7 @@ Please note that all values are shown as `average (stand deviation)`. Results sh
 | Fold 4 | 0.6401 (0.2779) | 0.6307 (0.2858) | 0.6459 (0.2800) | 0.6485 (0.2817) | 0.6470 (0.2817) | 0.6439 (0.2935) |
 | Mean   | 0.6358 (0.2693) | 0.6304 (0.2739) | 0.6388 (0.2645) | 0.6488 (0.2608) | 0.6471 (0.2654) | 0.6465 (0.2700) |
 
-#### **Jaccard Coefficient**
+#### **Jaccard Coefficient** $\uparrow$
 | <span style="display:inline-block;width:55px">JC</span> | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | Fold 0 | 0.5118 (0.2616) | 0.5109 (0.2656) | 0.5097 (0.2552) | 0.5248 (0.2510) | 0.5231 (0.2562) | 0.5244 (0.2565) |
@@ -65,7 +65,7 @@ Please note that all values are shown as `average (stand deviation)`. Results sh
 | Fold 4 | 0.5232 (0.2623) | 0.5155 (0.2687) | 0.5301 (0.2628) | 0.5337 (0.2636) | 0.5323 (0.2653) | 0.5325 (0.2723) |
 | Mean   | 0.5157 (0.2553) | 0.5112 (0.2583) | 0.5176 (0.2530) | 0.5274 (0.2488) | 0.5271 (0.2527) | 0.5278 (0.2556) |
 
-#### **Lesionwise F1 Score**
+#### **Lesionwise F1 Score** $\uparrow$
 | <span style="display:inline-block;width:55px">L-F1</span> | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | Fold 0 | 0.5285 (0.2853) | 0.5242 (0.3028) | 0.5416 (0.2776) | 0.5376 (0.2823) | 0.5463 (0.2916) | 0.5593 (0.2938) |
@@ -75,7 +75,7 @@ Please note that all values are shown as `average (stand deviation)`. Results sh
 | Fold 4 | 0.5568 (0.2970) | 0.5509 (0.2963) | 0.5392 (0.2980) | 0.5551 (0.3000) | 0.5722 (0.2981) | 0.5721 (0.3177) |
 | Mean   | 0.5493 (0.2815) | 0.5469 (0.2914) | 0.5395 (0.2770) | 0.5497 (0.2779) | 0.5685 (0.2845) | 0.5747 (0.2961) |
 
-#### **Simple Lesion Count**
+#### **Simple Lesion Count** $\downarrow$
 | <span style="display:inline-block;width:55px">SLC</span> | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | Fold 0 | 2.8779 (4.1138) | 3.2748 (4.2968) | 3.0076 (4.1016) | 3.0076 (4.0259) | 3.1298 (4.3099) | 3.0458 (4.1876) |
@@ -85,7 +85,7 @@ Please note that all values are shown as `average (stand deviation)`. Results sh
 | Fold 4 | 3.2214 (6.1335) | 3.3740 (6.1197) | 3.2977 (6.0748) | 3.3588 (6.0866) | 3.2061 (6.0938) | 3.0916 (6.1023) |
 | Mean   | 3.4305 (6.7530) | 3.5008 (6.6851) | 3.5618 (6.6306) | 3.5298 (6.6359) | 3.4412 (6.7976) | 3.3817 (6.7860) |
 
-#### **Volume Difference**
+#### **Volume Difference** $\downarrow$
 | <span style="display:inline-block;width:55px">VD</span> | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | Fold 0 | 5745 (14129) | 5783 (15054) | 6544 (16136) | 5596 (13805) | 5548 (14120) | 5546 (13858) |
@@ -95,7 +95,7 @@ Please note that all values are shown as `average (stand deviation)`. Results sh
 | Fold 4 | 5483 (12194) | 5684 (14459) | 5169 (10455) | 5232 (11279) | 5272 (11589) | 5308 (11609) |
 | Mean   | 5852 (11792) | 6013 (12740) | 5897 (12034) | 5628 (11084) | 5688 (11555) | 5729 (11565) |
 
-#### **95% Hausdorff Distance**
+#### **95% Hausdorff Distance** $\downarrow$
 | <span style="display:inline-block;width:55px">95HD</span> | Default | DTK10 | ResUNet | ST | Ensemble | Ensemble(PP) |
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | Fold 0 | 21.9424 (26.5471) | 22.9445 (29.4410) | 24.4844 (29.6224) | 23.1442 (28.2716) | 21.9932 (28.0031) | 21.8031 (27.8958) |
