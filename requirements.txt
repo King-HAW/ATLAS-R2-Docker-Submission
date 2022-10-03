@@ -47,7 +47,7 @@ itk-segmentation==5.2.1.post1
 jedi==0.18.1
 Jinja2==3.0.3
 jinja2-time==0.2.0
-joblib==1.1.0
+joblib==1.2.0
 json5==0.9.6
 jsonschema==4.4.0
 jupyter-client==7.1.2
