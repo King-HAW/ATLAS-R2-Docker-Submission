@@ -39,7 +39,7 @@ Here we provide our 5-fold cross-validation results. The code of calculating som
 - `Default`: the model was trained via nnU-Net default settings.
 - `DTK10`: the loss function (Dice + CE Loss) was replaced by TopK 10 Loss.
 - `ResUNet`: the generic U-Net was replaced by Res U-Net.
-- `ST`: we use self-training strategy to retrain the default nnU-Net settiongs.
+- `ST`: we use self-training strategy to retrain the default nnU-Net settings.
 - `Ensemble`: predictions of four different training settings were ensembled to get the final results.
 - `Ensemble(PP)`: the ensembled results were further handled with our proposed post-processing strategy.
 
