@@ -1,7 +1,7 @@
 # ATLAS-R2-Docker-Submission (Team CTRL)
 The docker submission of team CTRL for ATLAS R2.0 (Anatomical Tracings of Lesions After Stroke Segmentation Challenge). The source code for the algorithm container, generated with evalutils version 0.3.1.
 
-Paper | [Weights](#model)
+[Paper](#https://arxiv.org/abs/2211.15486) | [Weights](#model)
 
 ![Figure](./figures/atlas_r2_framework.png)
 
