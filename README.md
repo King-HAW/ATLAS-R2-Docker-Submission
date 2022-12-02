@@ -116,5 +116,17 @@ Please note that all values are shown as `average (stand deviation)`. Results sh
 - `export.sh`: the bash script for exporting the docker image to tar.gz file.
 - `fold_index.csv`: the 5-fold split index for each image. You can use it to do the 5-fold cross-validation.
 
+## Citation
+If the code is useful for your research, please consider citing our paper:
+```bibtex
+@article{huo2022mapping,
+    title   = {MAPPING: Model Average with Post-processing for Stroke Lesion Segmentation},
+    author  = {Huo, Jiayu and Chen, Liyun and Liu, Yang and Boels, Maxence and Granados, Alejandro and Ourselin, Sebastien and Sparks, Rachel},
+    journal = {ArXiv},
+    year    = {2022},
+    volume  = {abs/2211.15486}
+}
+```
+
 ## Acknowledgments
 We thank the Applied Computer Vision Lab (ACVL) for developing and maintaining [nnU-Net](https://github.com/MIC-DKFZ/nnUNet), and challenge organization team for releasing [ATLAS R2.0 Dataset](https://atlas.grand-challenge.org/ATLAS/).
